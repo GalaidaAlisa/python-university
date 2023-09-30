@@ -9,6 +9,8 @@ def F(x):
     y1 = math.sqrt(x ** 2 - 16) / math.sqrt(x - 3) + math.sqrt(x + 3)
     y2 = 7 / math.sqrt(x - 3)
     return y1 - y2
+
+
 def PrintAndExit(x):
     print('Корінь =', round(x, dig))
     sys.exit() # дострокове завершення програми
